@@ -119,9 +119,8 @@ const Test = () => {
                         value={
                             <div className="flex items-baseline justify-center text-3xl"> 
                                 <span className="text-cyan-400 font-bold">
-                                    {typeof suhu === 'number' ? suhu.toFixed(1) : suhu}
+                                    {typeof suhu === 'number' ? suhu.toFixed(1) : suhu}°C
                                 </span>
-                                <span className="text-xl ml-1 text-cyan-400 font-bold">°C</span> 
                             </div>
                         }
                         color="blue"
