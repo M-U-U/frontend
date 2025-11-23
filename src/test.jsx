@@ -3,14 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 import axios from 'axios';
-// Pastikan import komponen MetricCard Anda sesuai dengan nama file Anda, 
-// misalnya jika Anda menggunakan MetricCard2.jsx:
 import MetricCard2 from './MetricCard2'; 
 import TemperatureChart2 from './TemperatureChart2';
 import DataHistoris2 from './DataHistoris2';
 
 const Test = () => {
-    const SERVER_URL = 'https://iot-suhu.vercel.app/'; 
+    const SERVER_URL = 'http://bejer.tenzly.codes:14173/'; 
 
     // State untuk menyimpan data
     // Menggunakan string '...' sebagai nilai awal yang lebih aman dan eksplisit.
