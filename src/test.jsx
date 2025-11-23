@@ -8,7 +8,7 @@ import TemperatureChart2 from './TemperatureChart2';
 import DataHistoris2 from './DataHistoris2';
 
 const Test = () => {
-    const SERVER_URL = 'http://bejer.tenzly.codes:14173/'; 
+    const SERVER_URL = 'http:localhost:5000'; 
 
     // State untuk menyimpan data
     // Menggunakan string '...' sebagai nilai awal yang lebih aman dan eksplisit.
