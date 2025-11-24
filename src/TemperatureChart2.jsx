@@ -91,7 +91,7 @@ const TemperatureChart = ({ data }) => {
 
   return (
     <div className="bg-gray-800 p-3 rounded-xl h-[200px] shadow-lg">
-      <h2 className="text-xl font-semibold mb-2 text-white">LAST 10 TEMPERATURE READINGS</h2>
+      <h2 className="text-xl font-semibold mb-2 text-white">LAST 10 TEMPERATURE</h2>
       <div className="h-[calc(100%-35px)]">
         <Line data={chartConfig} options={options} /> 
       </div>
