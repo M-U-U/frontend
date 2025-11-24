@@ -21,7 +21,7 @@ const TemperatureChart = ({ data }) => {
     );
   }
 
-  const chartData = data.slice(0, 10).reverse();
+  const chartData = data.slice(0, 20).reverse();
 
   const labels = chartData.map(d => {
     try {
