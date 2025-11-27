@@ -8,7 +8,7 @@ import TemperatureChart2 from './TemperatureChart2';
 import DataHistoris2 from './DataHistoris2';
 
 const Test = () => {
-    const SERVER_URL = 'https://backend-flask-99.vercel.app/';
+    const SERVER_URL = 'http://147.185.221.194:65052/';
 
     // State untuk menyimpan data
     // Menggunakan string '...' sebagai nilai awal yang lebih aman dan eksplisit.
